@@ -12,7 +12,7 @@ import optimized from './assets/Optimized.webp';
 function App() {
   return (
     <>
-      <div style={{ width: '1400px' }}>
+      <div style={{ width: '1200px' }}>
         <nav>
           <img src={logo} alt="jpb-professional-marketing" height="120px" />
           <div
