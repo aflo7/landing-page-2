@@ -1,0 +1,86 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.rightHeader > div {
+  cursor: pointer;
+  user-select: none;
+}
+
+.rightHeader > div:hover {
+  color: rgb(89, 151, 198);
+}
+
+#headerImg {
+  height: 1000px;
+  background-image: url(./assets/JPB-Header1.webp);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.local-wrapper {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  width: 800px;
+  height: fit-content;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 1.8rem;
+}
+
+.local-wrapper > p {
+  color: white;
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+.our-services,
+.meet-our-team,
+.learn-more {
+  color: lightgray;
+  cursor: pointer;
+  padding: 10px 40px;
+}
+.our-services:hover {
+  background-color: white;
+  color: black;
+}
+
+.learn-more:hover {
+  background-color: white;
+  color: black;
+}
+
+.meet-our-team:hover {
+  background-color: white;
+  color: black;
+}
+
+#reactIcon {
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+#reactIcon:hover {
+  transform: scale(1.2);
+}
+
+.adobe-stock {
+  height: 1000px;
+  background-image: url(./assets/AdobeStock.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
